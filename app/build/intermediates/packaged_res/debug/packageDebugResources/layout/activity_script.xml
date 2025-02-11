@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cyberpunk_background">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cyberpunk_background">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/cyberpunk_surface"
+                app:menu="@menu/script_menu"
+                app:title="@string/script_mode"
+                app:titleTextColor="@color/cyberpunk_accent" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <com.pythonide.editor.CodeEditorView
+                android:id="@+id/codeInput"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/cyberpunk_code_background"
+                android:padding="16dp"
+                android:gravity="top|start"
+                android:textSize="14sp"
+                android:fontFamily="monospace"
+                android:textColor="@color/cyberpunk_text" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cyberpunk_accent" />
+
+            <TextView
+                android:id="@+id/outputText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:background="@color/cyberpunk_background"
+                android:fontFamily="monospace"
+                android:padding="16dp"
+                android:scrollbars="vertical"
+                android:fadeScrollbars="false"
+                android:textIsSelectable="true"
+                android:gravity="top|start"
+                android:textColor="@color/cyberpunk_text"
+                android:textSize="14sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/runButton"
+                style="@style/RunButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="16dp"
+                android:text="@string/run"
+                app:icon="@drawable/ic_play"
+                app:iconGravity="textStart" />
+
+        </LinearLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/cyberpunk_background"
+        app:headerLayout="@layout/nav_header"
+        app:itemIconTint="@color/cyberpunk_accent"
+        app:itemTextColor="@color/cyberpunk_text"
+        app:menu="@menu/script_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

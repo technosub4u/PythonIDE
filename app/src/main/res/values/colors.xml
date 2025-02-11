@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cyberpunk_primary">#FF1744</color>
+    <color name="cyberpunk_primary_dark">#D50000</color>
+    <color name="cyberpunk_accent">#FF5252</color>
+    <color name="cyberpunk_background">#1A1A1A</color>
+    <color name="cyberpunk_text">#FFFFFF</color>
+    <color name="cyberpunk_secondary_text">#B0BEC5</color>
+    <color name="cyberpunk_surface">#212121</color>
+    <color name="cyberpunk_code_background">#1E1E1E</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.PythonIDE" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/cyberpunk_primary</item>
+        <item name="colorPrimaryDark">@color/cyberpunk_primary_dark</item>
+        <item name="colorAccent">@color/cyberpunk_accent</item>
+        <item name="android:windowBackground">@color/cyberpunk_background</item>
+        <item name="android:textColor">@color/cyberpunk_text</item>
+        <item name="android:statusBarColor">@color/cyberpunk_background</item>
+        <item name="android:navigationBarColor">@color/cyberpunk_background</item>
+        <item name="materialButtonStyle">@style/CyberpunkButton</item>
+    </style>
+
+    <!-- No Action Bar variant -->
+    <style name="Theme.PythonIDE.NoActionBar" parent="Theme.PythonIDE">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

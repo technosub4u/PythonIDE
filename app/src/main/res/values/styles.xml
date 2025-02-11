@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom button styles -->
+    <style name="CyberpunkButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/cyberpunk_primary</item>
+        <item name="android:textColor">@color/cyberpunk_background</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="RunButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/cyberpunk_accent</item>
+        <item name="android:textColor">@color/cyberpunk_background</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Python IDE</string>
+    <string name="interpreter_mode">Interpreter Mode</string>
+    <string name="script_mode">Script Mode</string>
+    <string name="run">Run</string>
+    <string name="new_file">New File</string>
+    <string name="open_file">Open File</string>
+    <string name="history">History</string>
+    <string name="auto_indent">Auto Indent</string>
+    <string name="auto_save">Auto Save</string>
+    <string name="menu">Menu</string>
+    <string name="toggle_theme">Toggle Theme</string>
+</resources>

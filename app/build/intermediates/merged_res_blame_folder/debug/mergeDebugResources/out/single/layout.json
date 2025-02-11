@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.10.2\\com.pythonide.app-mergeDebugResources-32:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.10.2\\com.pythonide.app-main-35:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.10.2\\com.pythonide.app-mergeDebugResources-32:\\layout\\history_bottom_sheet.xml",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.10.2\\com.pythonide.app-main-35:\\layout\\history_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.pythonide.app-mergeDebugResources-32:/layout/nav_header.xml",
+        "source": "com.pythonide.app-main-35:/layout/nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.10.2\\com.pythonide.app-mergeDebugResources-32:\\layout\\activity_script.xml",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.10.2\\com.pythonide.app-main-35:\\layout\\activity_script.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.10.2\\com.pythonide.app-mergeDebugResources-32:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.10.2\\com.pythonide.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.10.2\\com.pythonide.app-mergeDebugResources-32:\\layout\\activity_interpreter.xml",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.10.2\\com.pythonide.app-main-35:\\layout\\activity_interpreter.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.10.2\\com.pythonide.app-mergeDebugResources-32:\\layout\\history_item.xml",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.10.2\\com.pythonide.app-main-35:\\layout\\history_item.xml"
+    }
+]

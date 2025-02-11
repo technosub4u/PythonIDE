@@ -1,0 +1,6 @@
+com.pythonide.test.app-jetified-core-1.6.1-0 C:\Users\manas\.gradle\caches\8.10.2\transforms\4e68a584e87cd88af4632b750941913a\transformed\jetified-core-1.6.1\res
+com.pythonide.test.app-jetified-tracing-1.2.0-1 C:\Users\manas\.gradle\caches\8.10.2\transforms\4efa5f48b5aaa3443346bdb6dfac50a1\transformed\jetified-tracing-1.2.0\res
+com.pythonide.test.app-androidTest-2 C:\Users\manas\AndroidStudioProjects\Shared\CyberPythonIDE\app\build\generated\res\resValues\androidTest\debug
+com.pythonide.test.app-mergeDebugAndroidTestResources-3 C:\Users\manas\AndroidStudioProjects\Shared\CyberPythonIDE\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.pythonide.test.app-mergeDebugAndroidTestResources-4 C:\Users\manas\AndroidStudioProjects\Shared\CyberPythonIDE\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.pythonide.test.app-debugAndroidTest-5 C:\Users\manas\AndroidStudioProjects\Shared\CyberPythonIDE\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

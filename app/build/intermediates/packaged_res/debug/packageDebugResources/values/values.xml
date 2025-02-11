@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="cyberpunk_accent">#FF5252</color>
+    <color name="cyberpunk_background">#1A1A1A</color>
+    <color name="cyberpunk_code_background">#1E1E1E</color>
+    <color name="cyberpunk_primary">#FF1744</color>
+    <color name="cyberpunk_primary_dark">#D50000</color>
+    <color name="cyberpunk_secondary_text">#B0BEC5</color>
+    <color name="cyberpunk_surface">#212121</color>
+    <color name="cyberpunk_text">#FFFFFF</color>
+    <color name="ic_launcher_background">#FF8255</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Python IDE</string>
+    <string name="auto_indent">Auto Indent</string>
+    <string name="auto_save">Auto Save</string>
+    <string name="history">History</string>
+    <string name="interpreter_mode">Interpreter Mode</string>
+    <string name="menu">Menu</string>
+    <string name="new_file">New File</string>
+    <string name="open_file">Open File</string>
+    <string name="run">Run</string>
+    <string name="script_mode">Script Mode</string>
+    <string name="toggle_theme">Toggle Theme</string>
+    <style name="CyberpunkButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/cyberpunk_primary</item>
+        <item name="android:textColor">@color/cyberpunk_background</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="RunButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/cyberpunk_accent</item>
+        <item name="android:textColor">@color/cyberpunk_background</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    <style name="Theme.PythonIDE" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/cyberpunk_primary</item>
+        <item name="colorPrimaryDark">@color/cyberpunk_primary_dark</item>
+        <item name="colorAccent">@color/cyberpunk_accent</item>
+        <item name="android:windowBackground">@color/cyberpunk_background</item>
+        <item name="android:textColor">@color/cyberpunk_text</item>
+        <item name="android:statusBarColor">@color/cyberpunk_background</item>
+        <item name="android:navigationBarColor">@color/cyberpunk_background</item>
+        <item name="materialButtonStyle">@style/CyberpunkButton</item>
+    </style>
+    <style name="Theme.PythonIDE.NoActionBar" parent="Theme.PythonIDE">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
